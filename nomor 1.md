@@ -59,5 +59,6 @@ int main(){
 ```
 
 ## Output
+![Screenshot 2022-12-19 180536](https://user-images.githubusercontent.com/121005363/208412260-5634e324-397f-4bcb-a51f-107e2494291e.png)
 
-![Screenshot 2022-12-19 153238](https://user-images.githubusercontent.com/121005363/208382456-30e9bf9f-43d5-4e3e-9ccf-38d6d8192d6d.png)
+
