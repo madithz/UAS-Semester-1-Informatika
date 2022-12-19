@@ -10,7 +10,6 @@ Progam ini adalah progam yang membuat matriks namun, hanya menampilkan bilangan 
 ## Source Code
 
 ```
-
 #include <iostream>
 using namespace std;
 
@@ -19,8 +18,8 @@ int main(){
   int baris, kolom; 
   int matriks[100][100], matrikst[100][100];
   
-  cout << "Selamat datang diprogam men-Transpose-kan Matriks \n";
-  cout << "====================================================\n";
+  cout << "Selamat datang diprogam menfilter bilangan matriks yang habis dibagi 3,5,7 \n";
+  cout << "===========================================================================\n";
   
   cout << "Masukkan baris matriks: ";
   cin >> baris;
@@ -35,32 +34,23 @@ int main(){
     }
   }
   
-  cout << "\nBerikut adalah matriks yang anda input : \n";
+  cout << "\nMatriks yang bilangannya habis 3,5,7 adalah : \n";
   for (x = 1; x <= baris; x++){
-    for (y = 1; y <= kolom; y++){
-      cout << matriks[x][y] << " ";
-    }
-    cout << endl;
-  }
-  
-  for (x = 1; x <= baris; x++){
-    for (y = 1; y <= kolom; y++){
-      matrikst[y][x] = matriks[x][y];
-    }
-  }
-  
-  cout << "\nBerikut adalah transpose dari matriks yang telah di input : \n";
-  for (x = 1; x <= kolom; x++){
-    for (y = 1; y <= baris; y++){
-      cout << matrikst[x][y] << "\t";
-    }
-    cout << endl;
+  	for (y = 1; y <= kolom; y++){
+  		if (matriks [x][y] % 3 == 0 or matriks [x][y] % 5 == 0 or matriks [x][y] % 7 == 0){
+  			matriks [x][y] = matriks [x][y];
+  			cout << matriks [x][y] << endl;
+		  }
+		else {
+			matriks [x][y] = 0;
+			
+		}
+	  }
   }
 }
-  
+
 ```
 
 ## Output
-
-![Screenshot 2022-12-19 153936](https://user-images.githubusercontent.com/121005363/208383265-2c82130c-dfd3-4dc9-a6bf-dd8f78bcfe11.png)
+![Screenshot 2022-12-19 174122](https://user-images.githubusercontent.com/121005363/208408041-ab97e4c6-3738-48e5-9cdf-dd7f33fc2232.png)
 
