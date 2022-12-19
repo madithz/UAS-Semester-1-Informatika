@@ -6,22 +6,11 @@
 <br>Jurusan		:[Teknik Informatika](http://if.uinsgd.ac.id/) [UIN Sunan Gunung Djati Bandung](https://uinsgd.ac.id/) 
 
 ## Deskripsi Umum
-
+Progam ini adalah progam yang membuat matriks namun, hanya menampilkan bilangan yang habis di bagi 3, 5 dan 7 pada matriks tersebut. Mula-mula kita harus menginput baris dan kolom pada matriks tersebut lalu menginput data/nilai dalam matriks tersebut sesuai dengan baris dan kolom. Lalu, progam ini akan otomatis memilih bilangan mana yang habis dibagi 3, 5 dan 7 dengan bilangan yang tidak habis dibagi 3, 5 dan 7. Bilangan yang tidak habis dibagi 3, 5 dan 7 di ganti dengan 0 sedangkan bilangan yang habis dibagi 3, 5 dan 7 akan tetap ditampilkan 
 ## Source Code
 
 ```
-# UAS-Semester-1-Informatika
-# Ujian Akhir Semester 
-<br>Mata Kuliah 	: Dasar Pemrograman
-<br> Nama		: Muhammad Aditya Hafizh Zahran
-<br>NIM		:	1227050081
-<br>Jurusan		:[Teknik Informatika](http://if.uinsgd.ac.id/) [UIN Sunan Gunung Djati Bandung](https://uinsgd.ac.id/) 
 
-## Deskripsi Umum
-Progam ini adalah progam untk mentranspose matriks dengan cara meningput jumlah baris dan kolom sebuah matriks. Lalu, matriks tersebut akan diisi data/nilai sesuai dengan baris dan kolom pada matriks serta diakhir progam akan mentranspose matriks dengan mengubah kolom menjadi baris dan baris menjadi kolom.
-## Source Code
-
-```
 #include <iostream>
 using namespace std;
 
@@ -68,14 +57,10 @@ int main(){
     cout << endl;
   }
 }
+  
 ```
 
 ## Output
 
-![Screenshot 2022-12-19 153238](https://user-images.githubusercontent.com/121005363/208382456-30e9bf9f-43d5-4e3e-9ccf-38d6d8192d6d.png)
-
-```
-
-## Output
-
+![Screenshot 2022-12-19 153936](https://user-images.githubusercontent.com/121005363/208383265-2c82130c-dfd3-4dc9-a6bf-dd8f78bcfe11.png)
 
