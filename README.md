@@ -1,1 +1,0 @@
-# UAS-Semester-1-Informatika
